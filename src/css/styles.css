@@ -33,24 +33,29 @@ button:hover {
   gap: 24px;
   list-style: none;
   padding: 0;
+  justify-content: center;
 }
 
 .gallery li {
-  width: calc(25% - 24px);
+  width: calc(33.3% - 24px);
   border: 1px solid #808080;
 }
 
 .gallery img {
   width: 100%;
-  height: auto;
+  height: 200px;
   display: flex;
+  object-fit: cover;
 }
 
 .info {
-  font-family: Montserrat;
-  font-size: 12px;
+  width: 100%;
   display: flex;
+  justify-content: center;
+  font-family: Montserrat;
+  font-size: 16px;
   text-align: center;
+  gap: 36px;
 }
 
 .loader {
