@@ -1,5 +1,5 @@
-import { fetchImages } from './js/pixabay-api';
-import { renderImages, clearGallery, hideLoadMoreButton, showLoadMoreButton, displayEndOfResultsMessage, hideEndOfResultsMessage, smoothScroll } from './js/render-functions';
+import { fetchImages } from './js/pixabay-api.js';
+import { renderImages, clearGallery, hideLoadMoreButton, showLoadMoreButton, displayEndOfResultsMessage, hideEndOfResultsMessage, smoothScroll } from './js/render-functions.js';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
@@ -77,4 +77,10 @@ function showLoader(show) {
     loader.style.display = 'none';
   }
 }
+
+
+
+
+
+
 

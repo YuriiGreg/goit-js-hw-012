@@ -32,19 +32,19 @@ export function clearGallery(gallery) {
 }
 
 export function hideLoadMoreButton() {
-  document.querySelector('.load-more').classList.add('is-hidden');
+  document.querySelector('.load-more').classList.add('hidden');
 }
 
 export function showLoadMoreButton() {
-  document.querySelector('.load-more').classList.remove('is-hidden');
+  document.querySelector('.load-more').classList.remove('hidden');
 }
 
 export function displayEndOfResultsMessage() {
-  document.querySelector('.end-of-results').classList.remove('is-hidden');
+  document.querySelector('.end-of-results').classList.remove('hidden');
 }
 
 export function hideEndOfResultsMessage() {
-  document.querySelector('.end-of-results').classList.add('is-hidden');
+  document.querySelector('.end-of-results').classList.add('hidden');
 }
 
 export function smoothScroll() {
@@ -57,5 +57,8 @@ export function smoothScroll() {
     behavior: 'smooth',
   });
 }
+
+
+
 
 
