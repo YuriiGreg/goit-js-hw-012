@@ -68,6 +68,7 @@ async function fetchAndRenderImages() {
   }
 }
 
+
 function showLoader(show) {
   if (show) {
     loader.classList.remove('hidden');
